@@ -1,0 +1,649 @@
+{
+  "treasury": {
+    "aavegotchi.eth": {
+      "treasuries": [
+        {
+          "name": "AavegotchiDAO Treasury (Polygon)",
+          "network": "137",
+          "address": "0xb208f8BB431f580CC4b216826AFfB128cd1431aB",
+          "is_safe": false,
+          "owners": null,
+          "threshold": null,
+          "eip1967_proxy": false,
+          "implementation": null,
+          "admin": null
+        },
+        {
+          "name": "AavegotchiDAO Player Rewards",
+          "network": "137",
+          "address": "0x27DF5C6dcd360f372e23d5e63645eC0072D0C098",
+          "is_safe": false,
+          "owners": null,
+          "threshold": null,
+          "eip1967_proxy": false,
+          "implementation": null,
+          "admin": null
+        },
+        {
+          "name": "AavegotchiDAO Treasury (Ethereum)",
+          "network": "1",
+          "address": "0xFFE6280ae4E864D9aF836B562359FD828EcE8020",
+          "is_safe": false,
+          "owners": null,
+          "threshold": null,
+          "eip1967_proxy": false,
+          "implementation": null,
+          "admin": null
+        }
+      ],
+      "n_declared": 3,
+      "n_safes": 0,
+      "min_threshold": null,
+      "D2_treasury_fail": null
+    },
+    "arbitrumfoundation.eth": {
+      "treasuries": [
+        {
+          "name": "LTIP (19/3/2024)",
+          "network": "42161",
+          "address": "0x544cBe6698E2e3b676C76097305bBa588dEfB13A",
+          "is_safe": true,
+          "owners": [
+            "0x5a35923ed6950eff4412ef6d27cea8b1d405a844",
+            "0x842b76531510bd2591d555a47388e1f1ff3d97f0",
+            "0xa7860e99e3ce0752d1ac53b974e309fff80277c6",
+            "0x73006c818880d07dd510e165c3de3e74f2407187",
+            "0xa9cd2d7fe90321badd16ebf6b5db7a6be099ef2e"
+          ],
+          "n_owners": 5,
+          "threshold": 3,
+          "eip1967_proxy": false,
+          "implementation": null,
+          "admin": null
+        }
+      ],
+      "n_declared": 1,
+      "n_safes": 1,
+      "min_threshold": 3,
+      "D2_treasury_fail": true
+    },
+    "banklessvault.eth": {
+      "treasuries": [
+        {
+          "name": "BanklessDAO Multisig",
+          "network": "1",
+          "address": "0xf26d1Bb347a59F6C283C53156519cC1B1ABacA51",
+          "is_safe": true,
+          "owners": [
+            "0x23db246031fd6f4e81b0814e9c1dc0901a18da2d",
+            "0xb6ac0341fcf3fb507a8208d34a97f13779e1393d",
+            "0x26973c1697e1f438e1a270466e8a7902ff44f9f3",
+            "0x3806c0e88f48123201b01414591ca2a8faa27f0a",
+            "0xffd1f7a0e01c947ba1006f162ac9c16b1745115a",
+            "0x72e489bd39d3092c75b70a130f5a45abe1becaf0",
+            "0x35ea12472d6fb21a9db24b397aa2775d332c14b7"
+          ],
+          "n_owners": 7,
+          "threshold": 4,
+          "eip1967_proxy": false,
+          "implementation": null,
+          "admin": null
+        }
+      ],
+      "n_declared": 1,
+      "n_safes": 1,
+      "min_threshold": 4,
+      "D2_treasury_fail": false
+    },
+    "gitcoindao.eth": {
+      "treasuries": [
+        {
+          "name": "Gitcoin Treasury",
+          "network": "1",
+          "address": "0x57a8865cfB1eCEf7253c27da6B4BC3dAEE5Be518",
+          "is_safe": false,
+          "owners": null,
+          "threshold": null,
+          "eip1967_proxy": false,
+          "implementation": null,
+          "admin": null
+        },
+        {
+          "name": "Gitcoin Grants Matching Pool ",
+          "network": "1",
+          "address": "0xde21F729137C5Af1b01d73aF1dC21eFfa2B8a0d6",
+          "is_safe": true,
+          "owners": [
+            "0x7904667c340601aab73939372c016dc5102732a2",
+            "0xd58bb7ae72b5b2fdc980c908bab75013a3628820",
+            "0x0edeea07fb4e700a2a502fdb43414bde3c75f8ee",
+            "0x5f834c8f70baaeafad00662cd214245c9a1a9ef5",
+            "0x5a5d9ab7b1bd978f80909503ebb828879daca9c3",
+            "0x393bc37ea5493233d2bdc68fd59dd97ee01b18cf",
+            "0xc2e2b715d9e302947ec7e312fd2384b5a1296099"
+          ],
+          "n_owners": 7,
+          "threshold": 4,
+          "eip1967_proxy": false,
+          "implementation": null,
+          "admin": null
+        }
+      ],
+      "n_declared": 2,
+      "n_safes": 1,
+      "min_threshold": 4,
+      "D2_treasury_fail": false
+    },
+    "hop.eth": {
+      "treasuries": [
+        {
+          "name": "Hop DAO Treasury",
+          "network": "1",
+          "address": "0xeeA8422a08258e73c139Fc32a25e10410c14bd7a",
+          "is_safe": false,
+          "owners": null,
+          "threshold": null,
+          "eip1967_proxy": false,
+          "implementation": null,
+          "admin": null
+        }
+      ],
+      "n_declared": 1,
+      "n_safes": 0,
+      "min_threshold": null,
+      "D2_treasury_fail": null
+    },
+    "krausehouse.eth": {
+      "treasuries": [
+        {
+          "name": "Main Treasury",
+          "network": "1",
+          "address": "0xE4762eAcEbDb7585D32079fdcbA5Bb94eb5d76F2",
+          "is_safe": true,
+          "owners": [
+            "0x2d5803cb5cb2bd90eb242e0162ae5e25b7a31b39",
+            "0x97f752e1d5f64ca932c32dbff82f4c92710bee54",
+            "0x4cfc602f2aecd761c437a3beadbd9e0c74fd8703",
+            "0xaea967842976600f1a9256dca207e4435a6f0112",
+            "0xc8af50428848b28ec5168037b54b7c7d83e168ee",
+            "0x5715e8a86c4b785de5114ed9b2233c566f73756c"
+          ],
+          "n_owners": 6,
+          "threshold": 4,
+          "eip1967_proxy": false,
+          "implementation": null,
+          "admin": null
+        },
+        {
+          "name": "Polygon Treasury",
+          "network": "137",
+          "address": "0x40eDBC75C543954CDD9c5ae7398342788F46A85B",
+          "is_safe": true,
+          "owners": [
+            "0x4cfc602f2aecd761c437a3beadbd9e0c74fd8703",
+            "0x1983da5059f7d7da6b4c6cdc3d42d69a334a5e7e",
+            "0x5715e8a86c4b785de5114ed9b2233c566f73756c",
+            "0xc8af50428848b28ec5168037b54b7c7d83e168ee"
+          ],
+          "n_owners": 4,
+          "threshold": 2,
+          "eip1967_proxy": false,
+          "implementation": null,
+          "admin": null
+        },
+        {
+          "name": "Optimism (Not in Use)",
+          "network": "10",
+          "address": "0xe245d82DDeDfB95ccaf68B9B609F1717B1A14A54",
+          "is_safe": true,
+          "owners": [
+            "0x97f752e1d5f64ca932c32dbff82f4c92710bee54",
+            "0xc4f8361c7d19df414fa387f6227fc6ecb6d8d1be",
+            "0x4cfc602f2aecd761c437a3beadbd9e0c74fd8703",
+            "0x5715e8a86c4b785de5114ed9b2233c566f73756c",
+            "0xaea967842976600f1a9256dca207e4435a6f0112",
+            "0xc8af50428848b28ec5168037b54b7c7d83e168ee"
+          ],
+          "n_owners": 6,
+          "threshold": 4,
+          "eip1967_proxy": false,
+          "implementation": null,
+          "admin": null
+        },
+        {
+          "name": "Gnosis Chain (Not in Use)",
+          "network": "100",
+          "address": "0x5844c36D6f803213Ca3f7fDac39A0d78f918ee3c",
+          "is_safe": true,
+          "owners": [
+            "0x1983da5059f7d7da6b4c6cdc3d42d69a334a5e7e",
+            "0x4cfc602f2aecd761c437a3beadbd9e0c74fd8703",
+            "0x5715e8a86c4b785de5114ed9b2233c566f73756c",
+            "0xaea967842976600f1a9256dca207e4435a6f0112",
+            "0xc8af50428848b28ec5168037b54b7c7d83e168ee",
+            "0xb9e10cd54ed3a02063f97e53eb3dced2b970994a",
+            "0xea0774226d998a2f513c3698901869189195c1b5"
+          ],
+          "n_owners": 7,
+          "threshold": 4,
+          "eip1967_proxy": false,
+          "implementation": null,
+          "admin": null
+        }
+      ],
+      "n_declared": 4,
+      "n_safes": 4,
+      "min_threshold": 2,
+      "D2_treasury_fail": true
+    },
+    "lyra.eth": {
+      "treasuries": [
+        {
+          "name": "Lyra DAO",
+          "network": "1",
+          "address": "0xEE86E99b42981623236824D33b4235833Afd8044",
+          "is_safe": false,
+          "owners": null,
+          "threshold": null,
+          "eip1967_proxy": false,
+          "implementation": null,
+          "admin": null
+        }
+      ],
+      "n_declared": 1,
+      "n_safes": 0,
+      "min_threshold": null,
+      "D2_treasury_fail": null
+    },
+    "morpho.eth": {
+      "treasuries": [
+        {
+          "name": "Morpho DAO",
+          "network": "1",
+          "address": "0xcBa28b38103307Ec8dA98377ffF9816C164f9AFa",
+          "is_safe": true,
+          "owners": [
+            "0xe0aeb6811d33df42a09066857cdafca16b506086",
+            "0x84d3e4ee550dd5f99e76a548ac59a6be1c8dcf79",
+            "0xc100c251bdd297a66795112f04356e6ba5f89d80",
+            "0x264c86dbbd2e4165fbbf0c35b0ddf0e00aec6b31",
+            "0x30e7c016fc702cde9a50720a469d418490b7b652",
+            "0x8f02b4a44eacd9b8ee7739aa0ba58833dd45d002",
+            "0xcf263cee139763114faafc5f52865135412f50ec",
+            "0x69fcefde2b48503d675181448b3d4272128bca9c",
+            "0x13ca8756e9470b71b8e998352c8741706217f963"
+          ],
+          "n_owners": 9,
+          "threshold": 5,
+          "eip1967_proxy": false,
+          "implementation": null,
+          "admin": null
+        }
+      ],
+      "n_declared": 1,
+      "n_safes": 1,
+      "min_threshold": 5,
+      "D2_treasury_fail": false
+    },
+    "safe.eth": {
+      "treasuries": [
+        {
+          "name": "SafeDAO Safe",
+          "network": "1",
+          "address": "0x8CF60B289f8d31F737049B590b5E4285Ff0Bd1D1",
+          "is_safe": true,
+          "owners": [
+            "0xee375eb11b4ca34407a49ed9e9d9bd246f9bf9d5",
+            "0x6b28fdcf3059dd13847648213175dca8853557b5",
+            "0xb1df01604095536cea66a9d06e67ed6f00684e58",
+            "0x9f7dfab2222a473284205cddf08a677726d786a0",
+            "0x3242071b0b406b6661af2de1115cd46567ab0917"
+          ],
+          "n_owners": 5,
+          "threshold": 3,
+          "eip1967_proxy": false,
+          "implementation": null,
+          "admin": null
+        },
+        {
+          "name": "Token Treasury",
+          "network": "1",
+          "address": "0x0B00b3227A5F3df3484f03990A87e02EbaD2F888",
+          "is_safe": true,
+          "owners": [
+            "0xb1df01604095536cea66a9d06e67ed6f00684e58",
+            "0xee375eb11b4ca34407a49ed9e9d9bd246f9bf9d5",
+            "0x6b28fdcf3059dd13847648213175dca8853557b5",
+            "0x3242071b0b406b6661af2de1115cd46567ab0917",
+            "0x9f7dfab2222a473284205cddf08a677726d786a0",
+            "0xd7df130531ef4fadf91fa16d96fa3c49358a7ad1",
+            "0x888614448eb7c766864fafb1dd20ff0b47988a87"
+          ],
+          "n_owners": 7,
+          "threshold": 3,
+          "eip1967_proxy": false,
+          "implementation": null,
+          "admin": null
+        }
+      ],
+      "n_declared": 2,
+      "n_safes": 2,
+      "min_threshold": 3,
+      "D2_treasury_fail": true
+    },
+    "stgdao.eth": {
+      "treasuries": [
+        {
+          "name": "Stargate DAO",
+          "network": "1",
+          "address": "0x65bb797c2B9830d891D87288F029ed8dACc19705",
+          "is_safe": true,
+          "owners": [
+            "0xfd3f88eca6cc5301b6d7068a09dc924ae9dfa3c3",
+            "0x18b3bf351b161e3de0d9d47efa80d9f474bdd5d1",
+            "0x79e2b9c1f6c9ed1375c93aaf139e6c4537f48523",
+            "0x00bd5c12508a346e4355c8ee085ae2bcb742e814",
+            "0xf02cc4dc84ac59bd6089baddceb9d4ef3aefb0f0"
+          ],
+          "n_owners": 5,
+          "threshold": 3,
+          "eip1967_proxy": false,
+          "implementation": null,
+          "admin": null
+        }
+      ],
+      "n_declared": 1,
+      "n_safes": 1,
+      "min_threshold": 3,
+      "D2_treasury_fail": true
+    },
+    "sushigov.eth": {
+      "treasuries": [
+        {
+          "name": "Sushi Treasury",
+          "network": "1",
+          "address": "0xe94b5eec1fa96ceecbd33ef5baa8d00e4493f4f3",
+          "is_safe": true,
+          "owners": [
+            "0x8620d3edd67ed411ccb314f3cfff5a27a7c74a74",
+            "0x935d288eb8f055b6b6969a5ee0a18f5e7359ce09",
+            "0xb67c1d1e04135a8a86ac9636a0fda38127ef4272",
+            "0x73a5a5ad6280e6dee92258a95161463511ce3ac9",
+            "0x45d39af6239051efdcb45d3bd65f55c3ac844e1d",
+            "0x513711ee8bb6e124c62e5b7a393d7ce1f64dc1ab"
+          ],
+          "n_owners": 6,
+          "threshold": 4,
+          "eip1967_proxy": false,
+          "implementation": null,
+          "admin": null
+        }
+      ],
+      "n_declared": 1,
+      "n_safes": 1,
+      "min_threshold": 4,
+      "D2_treasury_fail": false
+    }
+  },
+  "token_proxy": {
+    "1inch.eth": {
+      "token": "0x9A0C8Ff858d273f57072D714bca7411D717501D7",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "aavegotchi.eth": {
+      "token": "0xcd2f22236dd9dfe2356d7c543161d4d260fd9bcb",
+      "network": "8453",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "alchemixstakers.eth": {
+      "token": "0xADf8714e2703017CE6A1F6bF7a9e9be70ABC05E0",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "apecoin.eth": {
+      "token": "0xc6B740025485104987303E99DD2c54c1369FFe7B",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "arbitrumfoundation.eth": {
+      "token": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+      "network": "42161",
+      "eip1967_proxy": true,
+      "implementation": "0xd47d14a315394ddf063174f2286ab4eb7c507fa0",
+      "admin": "0xdb216562328215e010f819b5abe947bad4ca961e"
+    },
+    "badgerdao.eth": {
+      "token": "0xda230f173531F06D4e693DC1fb256B52c9B1a8C0",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "balancer.eth": {
+      "token": "0x411e723E6652347FF3Dd31749913A834e3D43DB4",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "banklessvault.eth": {
+      "token": "0x2d94AA3e47d9D5024503Ca8491fcE9A2fB4DA198",
+      "network": 1,
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "beanstalkfarms.eth": {
+      "token": "0xC1E088fC1323b20BCBee9bd1B9fC9546db5624C5",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "bitdao.eth": {
+      "token": "0x3c3a81e81dc49A522A592e7622A7E711c06bf354",
+      "network": "1",
+      "eip1967_proxy": true,
+      "implementation": "0xcd368c1d80120b0dd92447c87eb570154f8e685c",
+      "admin": "0x0cac2b1a172ac24012621101634dd5abd6399add"
+    },
+    "comp-vote.eth": {
+      "token": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "cvx.eth": {
+      "token": "0x72a19342e8F1838460eBFCCEf09F6585e32db86E",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "ens.eth": {
+      "token": "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "gearbox.eth": {
+      "token": "0x9D1Cb6B029B2969631667C8368c13dcF2Ec8f304",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "gitcoindao.eth": {
+      "token": "0xde30da39c46104798bb5aa3fe8b9e0e1f348163f",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "gmx.eth": {
+      "token": "0xd2D1162512F927a7e282Ef43a362659E4F2a728F",
+      "network": "42161",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "gnosis.eth": {
+      "token": "0xE6C45c06e4C73e2aD58Aedf9bf83bCe1534b524a",
+      "network": "100",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "hop.eth": {
+      "token": "0xed8Bdb5895B8B7f9Fdb3C087628FD8410E853D48",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "krausehouse.eth": {
+      "token": "0x9F6F91078A5072A8B54695DAfA2374Ab3cCd603b",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "lido-snapshot.eth": {
+      "token": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "lyra.eth": {
+      "token": "0x0F5d45a7023612e9e244fe84FAc5fCf3740d1492",
+      "network": "10",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "morpho.eth": {
+      "token": "0x58d97b57bb95320f9a05dc918aef65434969c2b2",
+      "network": "1",
+      "eip1967_proxy": true,
+      "implementation": "0x4364fd2371b6318159366abfa51f190df5c24852",
+      "admin": null
+    },
+    "olympusdao.eth": {
+      "token": "0x04f2694c8fcee23e8fd0dfea1d4f5bb8c352111f",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "opcollective.eth": {
+      "token": "0x4200000000000000000000000000000000000042",
+      "network": "10",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "pooltogether.eth": {
+      "token": "0x27d22a7648e955e510a40bdb058333e9190d12d4",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "qidao.eth": {
+      "token": "0x1BFFaBc6dFcAfB4177046db6686e3F135E8Bc732",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "radiantcapital.eth": {
+      "token": "0xf7DE7E8A6bd59ED41a4b5fe50278b3B7f31384dF",
+      "network": "56",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "rocketpool-dao.eth": {
+      "token": "0xD33526068D116cE69F19A9ee46F0bd304F21A51f",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "safe.eth": {
+      "token": "0x5aFE3855358E112B5647B952709E6165e1c1eEEe",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "shellprotocol.eth": {
+      "token": "0x68313f1a6a60d05dd767811643406339e8e8d034",
+      "network": "42161",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "snapshot.dcl.eth": {
+      "token": "0xfd09cf7cfffa9932e33668311c4777cb9db3c9be",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "stakedao.eth": {
+      "token": "0x94818A7baa7e9F5dC62ce4da1B52ef9a760b80B8",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "starknet.eth": {
+      "token": "0xca14007eff0db1f8135f4c25b34de49ab0d42766",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "stgdao.eth": {
+      "token": "0x9485DbDa44B279311e3eEe374CED60b5364A97d9",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "sushigov.eth": {
+      "token": "0x62d11bc0652e9D9B66ac0a4c419950eEb9cFadA6",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "uniswapgovernance.eth": {
+      "token": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    },
+    "yam.eth": {
+      "token": "0xc32f9b0292965c5dd4a0ea1abfcc1f5a36d66986",
+      "network": "1",
+      "eip1967_proxy": false,
+      "implementation": null,
+      "admin": null
+    }
+  }
+}

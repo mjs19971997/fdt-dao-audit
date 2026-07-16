@@ -1,0 +1,972 @@
+{
+  "spaces": [
+    {
+      "id": "stgdao.eth",
+      "name": "Stargate DAO",
+      "followersCount": 921360,
+      "proposalsCount": 155,
+      "votesCount": 18359873,
+      "network": "1",
+      "symbol": "veSTG",
+      "strategies": [
+        {
+          "name": "erc20-balance-of-with-delegation"
+        },
+        {
+          "name": "erc20-balance-of-with-delegation"
+        },
+        {
+          "name": "erc20-balance-of-with-delegation"
+        },
+        {
+          "name": "erc20-balance-of-with-delegation"
+        },
+        {
+          "name": "erc20-balance-of-with-delegation"
+        },
+        {
+          "name": "erc20-balance-of-with-delegation"
+        },
+        {
+          "name": "erc20-balance-of-with-delegation"
+        },
+        {
+          "name": "erc20-balance-of-with-delegation"
+        }
+      ]
+    },
+    {
+      "id": "arbitrumfoundation.eth",
+      "name": "Arbitrum DAO",
+      "followersCount": 323592,
+      "proposalsCount": 414,
+      "votesCount": 5683198,
+      "network": "42161",
+      "symbol": "ARB",
+      "strategies": [
+        {
+          "name": "erc20-votes"
+        }
+      ]
+    },
+    {
+      "id": "opcollective.eth",
+      "name": "Optimism Collective",
+      "followersCount": 204011,
+      "proposalsCount": 93,
+      "votesCount": 1144456,
+      "network": "10",
+      "symbol": "OP",
+      "strategies": [
+        {
+          "name": "erc20-votes"
+        }
+      ]
+    },
+    {
+      "id": "aavegotchi.eth",
+      "name": "Aavegotchi",
+      "followersCount": 86289,
+      "proposalsCount": 623,
+      "votesCount": 440786,
+      "network": "8453",
+      "symbol": "GHST",
+      "strategies": [
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "aavegotchi-agip"
+        },
+        {
+          "name": "aavegotchi-agip-17"
+        },
+        {
+          "name": "aavegotchi-agip-37-gltr-staked-lp"
+        }
+      ]
+    },
+    {
+      "id": "gmx.eth",
+      "name": "GMX",
+      "followersCount": 76025,
+      "proposalsCount": 76,
+      "votesCount": 315423,
+      "network": "42161",
+      "symbol": "GMX",
+      "strategies": [
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "contract-call"
+        },
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "contract-call"
+        },
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "erc20-balance-of"
+        }
+      ]
+    },
+    {
+      "id": "uniswapgovernance.eth",
+      "name": "Uniswap",
+      "followersCount": 125269,
+      "proposalsCount": 196,
+      "votesCount": 312890,
+      "network": "1",
+      "symbol": "UNI",
+      "strategies": [
+        {
+          "name": "uni"
+        }
+      ]
+    },
+    {
+      "id": "gitcoindao.eth",
+      "name": "Gitcoin",
+      "followersCount": 150499,
+      "proposalsCount": 182,
+      "votesCount": 211906,
+      "network": "1",
+      "symbol": "GTC",
+      "strategies": [
+        {
+          "name": "with-delegation"
+        }
+      ]
+    },
+    {
+      "id": "snapshot.dcl.eth",
+      "name": "Decentraland",
+      "followersCount": 34901,
+      "proposalsCount": 2829,
+      "votesCount": 177441,
+      "network": "1",
+      "symbol": "VP",
+      "strategies": [
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "erc721-with-multiplier"
+        },
+        {
+          "name": "decentraland-estate-size"
+        },
+        {
+          "name": "erc721-with-multiplier"
+        },
+        {
+          "name": "delegation"
+        },
+        {
+          "name": "decentraland-wearable-rarity"
+        },
+        {
+          "name": "decentraland-rental-lessors"
+        },
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "erc20-balance-of"
+        }
+      ]
+    },
+    {
+      "id": "shellprotocol.eth",
+      "name": "Shell Protocol",
+      "followersCount": 40011,
+      "proposalsCount": 55,
+      "votesCount": 177117,
+      "network": "42161",
+      "symbol": "veSHELL",
+      "strategies": [
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "delegation"
+        }
+      ]
+    },
+    {
+      "id": "apecoin.eth",
+      "name": "ApeCoin DAO",
+      "followersCount": 36331,
+      "proposalsCount": 327,
+      "votesCount": 158587,
+      "network": "1",
+      "symbol": "APE",
+      "strategies": [
+        {
+          "name": "erc20-votes"
+        },
+        {
+          "name": "erc20-votes"
+        },
+        {
+          "name": "erc20-votes"
+        },
+        {
+          "name": "apecoin-staking"
+        },
+        {
+          "name": "with-delegation"
+        },
+        {
+          "name": "with-delegation"
+        },
+        {
+          "name": "with-delegation"
+        }
+      ]
+    },
+    {
+      "id": "ens.eth",
+      "name": "ENS",
+      "followersCount": 143045,
+      "proposalsCount": 98,
+      "votesCount": 126467,
+      "network": "1",
+      "symbol": "ENS",
+      "strategies": [
+        {
+          "name": "delegation"
+        },
+        {
+          "name": "erc20-votes"
+        }
+      ]
+    },
+    {
+      "id": "cvx.eth",
+      "name": "Convex Finance",
+      "followersCount": 5947,
+      "proposalsCount": 2195,
+      "votesCount": 125551,
+      "network": "1",
+      "symbol": "CVX",
+      "strategies": [
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "erc20-balance-of-delegation"
+        }
+      ]
+    },
+    {
+      "id": "balancer.eth",
+      "name": "Balancer",
+      "followersCount": 36584,
+      "proposalsCount": 1065,
+      "votesCount": 124521,
+      "network": "1",
+      "symbol": "BAL",
+      "strategies": [
+        {
+          "name": "with-delegation"
+        },
+        {
+          "name": "erc20-balance-of-with-delegation"
+        },
+        {
+          "name": "erc20-balance-of-with-delegation"
+        },
+        {
+          "name": "erc20-balance-of-with-delegation"
+        },
+        {
+          "name": "erc20-balance-of-with-delegation"
+        },
+        {
+          "name": "erc20-balance-of-with-delegation"
+        },
+        {
+          "name": "erc20-balance-of-with-delegation"
+        }
+      ]
+    },
+    {
+      "id": "radiantcapital.eth",
+      "name": "Radiant Capital",
+      "followersCount": 28778,
+      "proposalsCount": 57,
+      "votesCount": 85057,
+      "network": "42161",
+      "symbol": "RDNT",
+      "strategies": [
+        {
+          "name": "with-delegation"
+        },
+        {
+          "name": "with-delegation"
+        },
+        {
+          "name": "with-delegation"
+        },
+        {
+          "name": "with-delegation"
+        }
+      ]
+    },
+    {
+      "id": "lido-snapshot.eth",
+      "name": "Lido",
+      "followersCount": 32657,
+      "proposalsCount": 419,
+      "votesCount": 83023,
+      "network": "1",
+      "symbol": "LDO",
+      "strategies": [
+        {
+          "name": "erc20-balance-of-delegation"
+        },
+        {
+          "name": "erc20-balance-of"
+        }
+      ]
+    },
+    {
+      "id": "qidao.eth",
+      "name": "Qi Dao | Mai.Finance",
+      "followersCount": 8362,
+      "proposalsCount": 250,
+      "votesCount": 74642,
+      "network": "1",
+      "symbol": "aveQI",
+      "strategies": [
+        {
+          "name": "ve-balance-of-at"
+        }
+      ]
+    },
+    {
+      "id": "bitdao.eth",
+      "name": "Mantle (prev. BitDAO)",
+      "followersCount": 89067,
+      "proposalsCount": 35,
+      "votesCount": 73125,
+      "network": "5000",
+      "symbol": "MNT",
+      "strategies": [
+        {
+          "name": "erc20-votes"
+        },
+        {
+          "name": "api-v2"
+        },
+        {
+          "name": "api-v2"
+        }
+      ]
+    },
+    {
+      "id": "badgerdao.eth",
+      "name": "BadgerDAO",
+      "followersCount": 10557,
+      "proposalsCount": 120,
+      "votesCount": 72240,
+      "network": "1",
+      "symbol": "BADGER",
+      "strategies": [
+        {
+          "name": "erc20-balance-of-with-delegation"
+        },
+        {
+          "name": "erc20-balance-of-with-delegation"
+        },
+        {
+          "name": "sablier-v2"
+        }
+      ]
+    },
+    {
+      "id": "beets.eth",
+      "name": "Beets",
+      "followersCount": 5157,
+      "proposalsCount": 216,
+      "votesCount": 62813,
+      "network": "146",
+      "symbol": "maBEETS",
+      "strategies": [
+        {
+          "name": "reliquary"
+        },
+        {
+          "name": "delegation"
+        }
+      ]
+    },
+    {
+      "id": "gearbox.eth",
+      "name": "Gearbox",
+      "followersCount": 6505,
+      "proposalsCount": 284,
+      "votesCount": 61239,
+      "network": "1",
+      "symbol": "GEAR",
+      "strategies": [
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "with-delegation"
+        },
+        {
+          "name": "with-delegation"
+        }
+      ]
+    },
+    {
+      "id": "olympusdao.eth",
+      "name": "OlympusDAO",
+      "followersCount": 27199,
+      "proposalsCount": 317,
+      "votesCount": 52027,
+      "network": "1",
+      "symbol": "OHM",
+      "strategies": [
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "math"
+        },
+        {
+          "name": "math"
+        },
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "math"
+        }
+      ]
+    },
+    {
+      "id": "gnosis.eth",
+      "name": "GnosisDAO",
+      "followersCount": 12230,
+      "proposalsCount": 253,
+      "votesCount": 48136,
+      "network": "1",
+      "symbol": "GNO",
+      "strategies": [
+        {
+          "name": "contract-call"
+        },
+        {
+          "name": "beacon-chain"
+        },
+        {
+          "name": "contract-call"
+        },
+        {
+          "name": "delegation"
+        },
+        {
+          "name": "delegation"
+        }
+      ]
+    },
+    {
+      "id": "sushigov.eth",
+      "name": "Sushi",
+      "followersCount": 61223,
+      "proposalsCount": 231,
+      "votesCount": 47654,
+      "network": "1",
+      "symbol": "SUSHIPOWAH",
+      "strategies": [
+        {
+          "name": "erc20-balance-of"
+        }
+      ]
+    },
+    {
+      "id": "banklessvault.eth",
+      "name": "Bankless DAO",
+      "followersCount": 28694,
+      "proposalsCount": 84,
+      "votesCount": 25245,
+      "network": "1",
+      "symbol": "BANK",
+      "strategies": [
+        {
+          "name": "multichain"
+        }
+      ]
+    },
+    {
+      "id": "safe.eth",
+      "name": "SafeDAO",
+      "followersCount": 17714,
+      "proposalsCount": 55,
+      "votesCount": 23583,
+      "network": "1",
+      "symbol": "SAFE",
+      "strategies": [
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "delegation"
+        },
+        {
+          "name": "safe-vested"
+        },
+        {
+          "name": "contract-call"
+        },
+        {
+          "name": "contract-call"
+        }
+      ]
+    },
+    {
+      "id": "hop.eth",
+      "name": "Hop",
+      "followersCount": 22172,
+      "proposalsCount": 61,
+      "votesCount": 22322,
+      "network": "1",
+      "symbol": "HOP",
+      "strategies": [
+        {
+          "name": "delegation"
+        },
+        {
+          "name": "erc20-votes"
+        }
+      ]
+    },
+    {
+      "id": "yam.eth",
+      "name": "Yam",
+      "followersCount": 1851,
+      "proposalsCount": 215,
+      "votesCount": 20377,
+      "network": "1",
+      "symbol": "YAM",
+      "strategies": [
+        {
+          "name": "contract-call"
+        }
+      ]
+    },
+    {
+      "id": "dydxgov.eth",
+      "name": "dYdX",
+      "followersCount": 24170,
+      "proposalsCount": 63,
+      "votesCount": 19162,
+      "network": "1",
+      "symbol": "DYDX",
+      "strategies": [
+        {
+          "name": "aave-governance-power"
+        }
+      ]
+    },
+    {
+      "id": "spookyswap.eth",
+      "name": "SpookySwap",
+      "followersCount": 4240,
+      "proposalsCount": 97,
+      "votesCount": 18662,
+      "network": "250",
+      "symbol": "SpookyVotes",
+      "strategies": [
+        {
+          "name": "pagination"
+        },
+        {
+          "name": "pagination"
+        }
+      ]
+    },
+    {
+      "id": "starknet.eth",
+      "name": " Starknet",
+      "followersCount": 67115,
+      "proposalsCount": 26,
+      "votesCount": 16362,
+      "network": "1",
+      "symbol": "STRK",
+      "strategies": [
+        {
+          "name": "erc20-votes-starknet"
+        },
+        {
+          "name": "erc20-votes"
+        },
+        {
+          "name": "strk-staked-balance"
+        },
+        {
+          "name": "whitelist-weighted"
+        }
+      ]
+    },
+    {
+      "id": "frax.eth",
+      "name": "Frax",
+      "followersCount": 4637,
+      "proposalsCount": 519,
+      "votesCount": 14439,
+      "network": "252",
+      "symbol": "veFXS",
+      "strategies": [
+        {
+          "name": "frax-finance-fraxtal"
+        }
+      ]
+    },
+    {
+      "id": "alchemixstakers.eth",
+      "name": "Alchemix",
+      "followersCount": 2545,
+      "proposalsCount": 142,
+      "votesCount": 13928,
+      "network": "59144",
+      "symbol": "ALCX",
+      "strategies": [
+        {
+          "name": "contract-call"
+        },
+        {
+          "name": "contract-call"
+        },
+        {
+          "name": "contract-call"
+        },
+        {
+          "name": "contract-call"
+        }
+      ]
+    },
+    {
+      "id": "1inch.eth",
+      "name": "1inch Network",
+      "followersCount": 13737,
+      "proposalsCount": 105,
+      "votesCount": 13810,
+      "network": "1",
+      "symbol": "UP",
+      "strategies": [
+        {
+          "name": "contract-call"
+        },
+        {
+          "name": "delegation"
+        }
+      ]
+    },
+    {
+      "id": "rocketpool-dao.eth",
+      "name": "Rocket Pool",
+      "followersCount": 1185,
+      "proposalsCount": 64,
+      "votesCount": 10690,
+      "network": "1",
+      "symbol": "Vote",
+      "strategies": [
+        {
+          "name": "rocketpool-node-operator-delegate-v8"
+        }
+      ]
+    },
+    {
+      "id": "mstablegovernance.eth",
+      "name": "mStable",
+      "followersCount": 956,
+      "proposalsCount": 142,
+      "votesCount": 9839,
+      "network": "1",
+      "symbol": "vMTA",
+      "strategies": [
+        {
+          "name": "mstable"
+        }
+      ]
+    },
+    {
+      "id": "krausehouse.eth",
+      "name": "Krause House",
+      "followersCount": 923,
+      "proposalsCount": 214,
+      "votesCount": 5449,
+      "network": "1",
+      "symbol": "KRAUSE",
+      "strategies": [
+        {
+          "name": "erc20-balance-of"
+        }
+      ]
+    },
+    {
+      "id": "beanstalkfarms.eth",
+      "name": "Beanstalk Farms",
+      "followersCount": 332,
+      "proposalsCount": 149,
+      "votesCount": 5301,
+      "network": "1",
+      "symbol": "STALK",
+      "strategies": [
+        {
+          "name": "contract-call"
+        },
+        {
+          "name": "delegation"
+        }
+      ]
+    },
+    {
+      "id": "morpho.eth",
+      "name": "Morpho",
+      "followersCount": 1346,
+      "proposalsCount": 138,
+      "votesCount": 4833,
+      "network": "1",
+      "symbol": "MORPHO",
+      "strategies": [
+        {
+          "name": "morpho-delegation"
+        }
+      ]
+    },
+    {
+      "id": "stakedao.eth",
+      "name": "Stake DAO",
+      "followersCount": 1561,
+      "proposalsCount": 143,
+      "votesCount": 4113,
+      "network": "1",
+      "symbol": "vlSDT",
+      "strategies": [
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "erc20-balance-of-delegation"
+        }
+      ]
+    },
+    {
+      "id": "pooltogether.eth",
+      "name": "PoolTogether",
+      "followersCount": 5228,
+      "proposalsCount": 38,
+      "votesCount": 3690,
+      "network": "1",
+      "symbol": "POOL + PPOOL",
+      "strategies": [
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "multichain"
+        },
+        {
+          "name": "comp-like-votes"
+        }
+      ]
+    },
+    {
+      "id": "comp-vote.eth",
+      "name": "Compound",
+      "followersCount": 7318,
+      "proposalsCount": 36,
+      "votesCount": 3133,
+      "network": "1",
+      "symbol": "COMP",
+      "strategies": [
+        {
+          "name": "comp-like-votes"
+        }
+      ]
+    },
+    {
+      "id": "lyra.eth",
+      "name": "Lyra",
+      "followersCount": 969,
+      "proposalsCount": 82,
+      "votesCount": 2543,
+      "network": "1",
+      "symbol": "stkLYRA",
+      "strategies": [
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "aave-governance-power"
+        }
+      ]
+    },
+    {
+      "id": "idlefinance.eth",
+      "name": "Idle DAO",
+      "followersCount": 115,
+      "proposalsCount": 128,
+      "votesCount": 1472,
+      "network": "1",
+      "symbol": "IDLE",
+      "strategies": [
+        {
+          "name": "csv"
+        }
+      ]
+    },
+    {
+      "id": "silofinance.eth",
+      "name": "Silo",
+      "followersCount": 419,
+      "proposalsCount": 53,
+      "votesCount": 1257,
+      "network": "1",
+      "symbol": "SILO",
+      "strategies": [
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "erc20-balance-of"
+        }
+      ]
+    },
+    {
+      "id": "spectradao.eth",
+      "name": "Spectra DAO",
+      "followersCount": 112,
+      "proposalsCount": 160,
+      "votesCount": 946,
+      "network": "8453",
+      "symbol": "veSPECTRA",
+      "strategies": [
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "with-delegation"
+        }
+      ]
+    },
+    {
+      "id": "instadapp-gov.eth",
+      "name": "Instadapp",
+      "followersCount": 1034,
+      "proposalsCount": 19,
+      "votesCount": 330,
+      "network": "1",
+      "symbol": "INST",
+      "strategies": [
+        {
+          "name": "erc20-balance-of"
+        },
+        {
+          "name": "comp-like-votes"
+        }
+      ]
+    }
+  ],
+  "missing": [
+    "aave.eth",
+    "indexcoop.eth",
+    "mantle.eth",
+    "moonwell.eth",
+    "developerdao.eth",
+    "fwb.eth",
+    "nounsdao.eth",
+    "friendsofpooltogether.eth",
+    "tribe.eth",
+    "euler.eth",
+    "angle.eth",
+    "vesta-finance.eth",
+    "connext.eth",
+    "across.eth"
+  ],
+  "eligible": [
+    "stgdao.eth",
+    "arbitrumfoundation.eth",
+    "opcollective.eth",
+    "aavegotchi.eth",
+    "gmx.eth",
+    "uniswapgovernance.eth",
+    "gitcoindao.eth",
+    "snapshot.dcl.eth",
+    "shellprotocol.eth",
+    "apecoin.eth",
+    "ens.eth",
+    "cvx.eth",
+    "balancer.eth",
+    "radiantcapital.eth",
+    "lido-snapshot.eth",
+    "qidao.eth",
+    "bitdao.eth",
+    "badgerdao.eth",
+    "beets.eth",
+    "gearbox.eth",
+    "olympusdao.eth",
+    "gnosis.eth",
+    "sushigov.eth",
+    "banklessvault.eth",
+    "safe.eth",
+    "hop.eth",
+    "yam.eth",
+    "dydxgov.eth",
+    "spookyswap.eth",
+    "starknet.eth",
+    "frax.eth",
+    "alchemixstakers.eth",
+    "1inch.eth",
+    "rocketpool-dao.eth",
+    "mstablegovernance.eth",
+    "krausehouse.eth",
+    "beanstalkfarms.eth",
+    "morpho.eth",
+    "stakedao.eth",
+    "pooltogether.eth",
+    "comp-vote.eth",
+    "lyra.eth"
+  ]
+}

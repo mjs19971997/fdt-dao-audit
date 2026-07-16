@@ -1,0 +1,178 @@
+{
+  "masking": [
+    {
+      "space": "1inch.eth",
+      "n_props": 20,
+      "gini_full": 0.8957229296339048,
+      "gini_masked": 0.5393461679959756
+    },
+    {
+      "space": "aavegotchi.eth",
+      "n_props": 53,
+      "gini_full": 0.7089209022123522,
+      "gini_masked": 0.6138526892229133
+    },
+    {
+      "space": "alchemixstakers.eth",
+      "n_props": 3,
+      "gini_full": 0.7463122507452782,
+      "gini_masked": 0.6456133928578511
+    },
+    {
+      "space": "arbitrumfoundation.eth",
+      "n_props": 32,
+      "gini_full": 0.9917032453021334,
+      "gini_masked": 0.9925273255942316
+    },
+    {
+      "space": "badgerdao.eth",
+      "n_props": 1,
+      "gini_full": 0.9544699089108657,
+      "gini_masked": 0.5264880505388447
+    },
+    {
+      "space": "balancer.eth",
+      "n_props": 2,
+      "gini_full": 0.8615505435245165,
+      "gini_masked": 0.5363684135287121
+    },
+    {
+      "space": "beets.eth",
+      "n_props": 23,
+      "gini_full": 0.8551843206798071,
+      "gini_masked": 0.667981689221842
+    },
+    {
+      "space": "bitdao.eth",
+      "n_props": 2,
+      "gini_full": 0.9795035282790764,
+      "gini_masked": 0.806202742188573
+    },
+    {
+      "space": "comp-vote.eth",
+      "n_props": 8,
+      "gini_full": 0.7994095266587872,
+      "gini_masked": 0.715388392537461
+    },
+    {
+      "space": "cvx.eth",
+      "n_props": 142,
+      "gini_full": 0.8548015693121589,
+      "gini_masked": 0.5274935618556206
+    },
+    {
+      "space": "ens.eth",
+      "n_props": 14,
+      "gini_full": 0.8623093929492016,
+      "gini_masked": 0.875968488701543
+    },
+    {
+      "space": "frax.eth",
+      "n_props": 3,
+      "gini_full": 0.9080169334263226,
+      "gini_masked": 0.5974788610576787
+    },
+    {
+      "space": "gearbox.eth",
+      "n_props": 41,
+      "gini_full": 0.7225160017093226,
+      "gini_masked": 0.6710183407141865
+    },
+    {
+      "space": "gitcoindao.eth",
+      "n_props": 13,
+      "gini_full": 0.9948585963631336,
+      "gini_masked": 0.6416005928793365
+    },
+    {
+      "space": "gmx.eth",
+      "n_props": 15,
+      "gini_full": 0.9394142607919527,
+      "gini_masked": 0.8882474105576112
+    },
+    {
+      "space": "gnosis.eth",
+      "n_props": 21,
+      "gini_full": 0.9196832856471262,
+      "gini_masked": 0.9254055310248437
+    },
+    {
+      "space": "lido-snapshot.eth",
+      "n_props": 39,
+      "gini_full": 0.8610514086952452,
+      "gini_masked": 0.9126456248223291
+    },
+    {
+      "space": "morpho.eth",
+      "n_props": 16,
+      "gini_full": 0.8506981194626788,
+      "gini_masked": 0.37478208907987376
+    },
+    {
+      "space": "olympusdao.eth",
+      "n_props": 2,
+      "gini_full": 0.7635514016953114,
+      "gini_masked": 0.4889786489158958
+    },
+    {
+      "space": "radiantcapital.eth",
+      "n_props": 2,
+      "gini_full": 0.9662149427064085,
+      "gini_masked": 0.8350444955908423
+    },
+    {
+      "space": "rocketpool-dao.eth",
+      "n_props": 6,
+      "gini_full": 0.6736657737992813,
+      "gini_masked": 0.48721727940830295
+    },
+    {
+      "space": "safe.eth",
+      "n_props": 2,
+      "gini_full": 0.9635952541005953,
+      "gini_masked": 0.8839884362446397
+    },
+    {
+      "space": "snapshot.dcl.eth",
+      "n_props": 47,
+      "gini_full": 0.8667902038626696,
+      "gini_masked": 0.7170805472218609
+    },
+    {
+      "space": "stakedao.eth",
+      "n_props": 10,
+      "gini_full": 0.6627983676477449,
+      "gini_masked": 0.5964665377106966
+    },
+    {
+      "space": "starknet.eth",
+      "n_props": 20,
+      "gini_full": 0.9804581704832599,
+      "gini_masked": 0.9835022449744372
+    },
+    {
+      "space": "stgdao.eth",
+      "n_props": 16,
+      "gini_full": 0.9864296814479117,
+      "gini_masked": 0.8783534970089051
+    },
+    {
+      "space": "sushigov.eth",
+      "n_props": 2,
+      "gini_full": 0.9557951182368106,
+      "gini_masked": 0.3048148541077913
+    },
+    {
+      "space": "uniswapgovernance.eth",
+      "n_props": 16,
+      "gini_full": 0.9710359843661163,
+      "gini_masked": 0.9733895518273011
+    }
+  ],
+  "loo": {
+    "base_gini": 0.8551906844559809,
+    "base_d_vote": 0.7406326457605579,
+    "max_delta_gini": 0.0008420233861472504,
+    "max_delta_d_vote": 0.016220470703411483
+  }
+}

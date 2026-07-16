@@ -1,0 +1,1228 @@
+{
+  "arbitrumfoundation.eth": {
+    "name": "Arbitrum DAO",
+    "network": "42161",
+    "symbol": "ARB",
+    "followers": 323592,
+    "proposals_all_time": 414,
+    "votes_all_time": 5683202,
+    "plugins": [
+      "oSnap"
+    ],
+    "has_exec_plugin": true,
+    "exec_plugins": [
+      "oSnap"
+    ],
+    "voting": {
+      "type": null,
+      "quorum": null,
+      "delay": null,
+      "period": 604800
+    },
+    "treasuries": [
+      {
+        "name": "LTIP (19/3/2024)",
+        "address": "0x544cBe6698E2e3b676C76097305bBa588dEfB13A",
+        "network": "42161"
+      }
+    ],
+    "token": {
+      "address": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+      "decimals": 18,
+      "network": "42161",
+      "strategy": "erc20-votes"
+    },
+    "token_total_supply": 9999998977.630224,
+    "supply_measured_at": "latest"
+  },
+  "starknet.eth": {
+    "name": " Starknet",
+    "network": "1",
+    "symbol": "STRK",
+    "followers": 67115,
+    "proposals_all_time": 26,
+    "votes_all_time": 16362,
+    "plugins": [
+      "hal"
+    ],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": null,
+      "delay": 7200,
+      "period": 604800
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0xca14007eff0db1f8135f4c25b34de49ab0d42766",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "erc20-votes"
+    },
+    "token_total_supply": 10139100000.0,
+    "supply_measured_at": "latest"
+  },
+  "radiantcapital.eth": {
+    "name": "Radiant Capital",
+    "network": "42161",
+    "symbol": "RDNT",
+    "followers": 28778,
+    "proposals_all_time": 57,
+    "votes_all_time": 85057,
+    "plugins": [],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": 10000000,
+      "delay": 14400,
+      "period": 2332800
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0xf7DE7E8A6bd59ED41a4b5fe50278b3B7f31384dF",
+      "decimals": 18,
+      "network": "56",
+      "strategy": "with-delegation"
+    },
+    "token_total_supply": 327241951.2536427,
+    "supply_measured_at": "latest"
+  },
+  "morpho.eth": {
+    "name": "Morpho",
+    "network": "1",
+    "symbol": "MORPHO",
+    "followers": 1346,
+    "proposals_all_time": 138,
+    "votes_all_time": 4833,
+    "plugins": [
+      "hal"
+    ],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": 500000,
+      "delay": null,
+      "period": 259200
+    },
+    "treasuries": [
+      {
+        "name": "Morpho DAO",
+        "address": "0xcBa28b38103307Ec8dA98377ffF9816C164f9AFa",
+        "network": "1"
+      }
+    ],
+    "token": {
+      "address": "0x58d97b57bb95320f9a05dc918aef65434969c2b2",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "morpho-delegation"
+    },
+    "token_total_supply": 999999999.8010328,
+    "supply_measured_at": "latest"
+  },
+  "hop.eth": {
+    "name": "Hop",
+    "network": "1",
+    "symbol": "HOP",
+    "followers": 22172,
+    "proposals_all_time": 61,
+    "votes_all_time": 22322,
+    "plugins": [],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": 300000,
+      "delay": null,
+      "period": 432000
+    },
+    "treasuries": [
+      {
+        "name": "Hop DAO Treasury",
+        "address": "0xeeA8422a08258e73c139Fc32a25e10410c14bd7a",
+        "network": "1"
+      }
+    ],
+    "token": {
+      "address": "0xed8Bdb5895B8B7f9Fdb3C087628FD8410E853D48",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "delegation"
+    },
+    "token_total_supply": null,
+    "supply_measured_at": "latest"
+  },
+  "opcollective.eth": {
+    "name": "Optimism Collective",
+    "network": "10",
+    "symbol": "OP",
+    "followers": 204011,
+    "proposals_all_time": 93,
+    "votes_all_time": 1144456,
+    "plugins": [],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": "approval",
+      "quorum": null,
+      "delay": null,
+      "period": 518400
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0x4200000000000000000000000000000000000042",
+      "decimals": 18,
+      "network": "10",
+      "strategy": "erc20-votes"
+    },
+    "token_total_supply": 4294963292.49875,
+    "supply_measured_at": "latest"
+  },
+  "safe.eth": {
+    "name": "SafeDAO",
+    "network": "1",
+    "symbol": "SAFE",
+    "followers": 17714,
+    "proposals_all_time": 55,
+    "votes_all_time": 23583,
+    "plugins": [
+      "safeSnap"
+    ],
+    "has_exec_plugin": true,
+    "exec_plugins": [
+      "safeSnap"
+    ],
+    "voting": {
+      "type": "single-choice",
+      "quorum": 10000000,
+      "delay": 86400,
+      "period": 1036800
+    },
+    "treasuries": [
+      {
+        "name": "SafeDAO Safe",
+        "address": "0x8CF60B289f8d31F737049B590b5E4285Ff0Bd1D1",
+        "network": "1"
+      },
+      {
+        "name": "Token Treasury",
+        "address": "0x0B00b3227A5F3df3484f03990A87e02EbaD2F888",
+        "network": "1"
+      }
+    ],
+    "token": {
+      "address": "0x5aFE3855358E112B5647B952709E6165e1c1eEEe",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "erc20-balance-of"
+    },
+    "token_total_supply": 1000000000.0,
+    "supply_measured_at": "latest"
+  },
+  "shellprotocol.eth": {
+    "name": "Shell Protocol",
+    "network": "42161",
+    "symbol": "veSHELL",
+    "followers": 40011,
+    "proposals_all_time": 55,
+    "votes_all_time": 177117,
+    "plugins": [],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": "single-choice",
+      "quorum": 50000,
+      "delay": null,
+      "period": 432000
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0x68313f1a6a60d05dd767811643406339e8e8d034",
+      "decimals": 18,
+      "network": "42161",
+      "strategy": "erc20-balance-of"
+    },
+    "token_total_supply": 8202.128067964744,
+    "supply_measured_at": "latest"
+  },
+  "rocketpool-dao.eth": {
+    "name": "Rocket Pool",
+    "network": "1",
+    "symbol": "Vote",
+    "followers": 1185,
+    "proposals_all_time": 64,
+    "votes_all_time": 10690,
+    "plugins": [
+      "poap"
+    ],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": 10035,
+      "delay": null,
+      "period": 1209600
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0xD33526068D116cE69F19A9ee46F0bd304F21A51f",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "rocketpool-node-operator-delegate-v8"
+    },
+    "token_total_supply": 22619597.206245966,
+    "supply_measured_at": "latest"
+  },
+  "apecoin.eth": {
+    "name": "ApeCoin DAO",
+    "network": "1",
+    "symbol": "APE",
+    "followers": 36331,
+    "proposals_all_time": 327,
+    "votes_all_time": 158587,
+    "plugins": [
+      "poap"
+    ],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": 1,
+      "delay": null,
+      "period": 1123200
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0xc6B740025485104987303E99DD2c54c1369FFe7B",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "erc20-votes"
+    },
+    "token_total_supply": null,
+    "supply_measured_at": "latest"
+  },
+  "stgdao.eth": {
+    "name": "Stargate DAO",
+    "network": "1",
+    "symbol": "veSTG",
+    "followers": 921360,
+    "proposals_all_time": 155,
+    "votes_all_time": 18359873,
+    "plugins": [
+      "hal",
+      "poap",
+      "quorum",
+      "projectGalaxy"
+    ],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": 1200000,
+      "delay": 14400,
+      "period": null
+    },
+    "treasuries": [
+      {
+        "name": "Stargate DAO",
+        "address": "0x65bb797c2B9830d891D87288F029ed8dACc19705",
+        "network": "1"
+      }
+    ],
+    "token": {
+      "address": "0x9485DbDa44B279311e3eEe374CED60b5364A97d9",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "erc20-balance-of-with-delegation"
+    },
+    "token_total_supply": 0.0,
+    "supply_measured_at": "latest"
+  },
+  "krausehouse.eth": {
+    "name": "Krause House",
+    "network": "1",
+    "symbol": "KRAUSE",
+    "followers": 923,
+    "proposals_all_time": 214,
+    "votes_all_time": 5449,
+    "plugins": [],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": "weighted",
+      "quorum": null,
+      "delay": null,
+      "period": 259200
+    },
+    "treasuries": [
+      {
+        "name": "Main Treasury",
+        "address": "0xE4762eAcEbDb7585D32079fdcbA5Bb94eb5d76F2",
+        "network": "1"
+      },
+      {
+        "name": "Polygon Treasury",
+        "address": "0x40eDBC75C543954CDD9c5ae7398342788F46A85B",
+        "network": "137"
+      },
+      {
+        "name": "Optimism (Not in Use)",
+        "address": "0xe245d82DDeDfB95ccaf68B9B609F1717B1A14A54",
+        "network": "10"
+      },
+      {
+        "name": "Gnosis Chain (Not in Use)",
+        "address": "0x5844c36D6f803213Ca3f7fDac39A0d78f918ee3c",
+        "network": "100"
+      }
+    ],
+    "token": {
+      "address": "0x9F6F91078A5072A8B54695DAfA2374Ab3cCd603b",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "erc20-balance-of"
+    },
+    "token_total_supply": 4997850.0,
+    "supply_measured_at": "latest"
+  },
+  "gmx.eth": {
+    "name": "GMX",
+    "network": "42161",
+    "symbol": "GMX",
+    "followers": 76025,
+    "proposals_all_time": 76,
+    "votes_all_time": 315423,
+    "plugins": [],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": null,
+      "delay": null,
+      "period": null
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0xd2D1162512F927a7e282Ef43a362659E4F2a728F",
+      "decimals": 18,
+      "network": "42161",
+      "strategy": "erc20-balance-of"
+    },
+    "token_total_supply": 7158831.848328865,
+    "supply_measured_at": "latest"
+  },
+  "beets.eth": {
+    "name": "Beets",
+    "network": "146",
+    "symbol": "maBEETS",
+    "followers": 5157,
+    "proposals_all_time": 216,
+    "votes_all_time": 62813,
+    "plugins": [],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": 4000000,
+      "delay": null,
+      "period": null
+    },
+    "treasuries": [],
+    "token": null,
+    "token_total_supply": null,
+    "supply_measured_at": "latest"
+  },
+  "beanstalkfarms.eth": {
+    "name": "Beanstalk Farms",
+    "network": "1",
+    "symbol": "STALK",
+    "followers": 332,
+    "proposals_all_time": 149,
+    "votes_all_time": 5301,
+    "plugins": [],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": null,
+      "delay": null,
+      "period": 604800
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0xC1E088fC1323b20BCBee9bd1B9fC9546db5624C5",
+      "decimals": 10,
+      "network": "1",
+      "strategy": "contract-call"
+    },
+    "token_total_supply": null,
+    "supply_measured_at": "latest"
+  },
+  "gearbox.eth": {
+    "name": "Gearbox",
+    "network": "1",
+    "symbol": "GEAR",
+    "followers": 6505,
+    "proposals_all_time": 284,
+    "votes_all_time": 61239,
+    "plugins": [],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": 200000000,
+      "delay": null,
+      "period": 259200
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0x9D1Cb6B029B2969631667C8368c13dcF2Ec8f304",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "erc20-balance-of"
+    },
+    "token_total_supply": null,
+    "supply_measured_at": "latest"
+  },
+  "dydxgov.eth": {
+    "name": "dYdX",
+    "network": "1",
+    "symbol": "DYDX",
+    "followers": 24170,
+    "proposals_all_time": 63,
+    "votes_all_time": 19162,
+    "plugins": [],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": null,
+      "delay": 86400,
+      "period": 345600
+    },
+    "treasuries": [],
+    "token": null,
+    "token_total_supply": null,
+    "supply_measured_at": "latest"
+  },
+  "balancer.eth": {
+    "name": "Balancer",
+    "network": "1",
+    "symbol": "BAL",
+    "followers": 36584,
+    "proposals_all_time": 1065,
+    "votes_all_time": 124521,
+    "plugins": [
+      "poap"
+    ],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": "weighted",
+      "quorum": 10000000,
+      "delay": null,
+      "period": 345600
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0x411e723E6652347FF3Dd31749913A834e3D43DB4",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "with-delegation"
+    },
+    "token_total_supply": null,
+    "supply_measured_at": "latest"
+  },
+  "mstablegovernance.eth": {
+    "name": "mStable",
+    "network": "1",
+    "symbol": "vMTA",
+    "followers": 956,
+    "proposals_all_time": 142,
+    "votes_all_time": 9839,
+    "plugins": [
+      "hal",
+      "poap",
+      "safeSnap"
+    ],
+    "has_exec_plugin": true,
+    "exec_plugins": [
+      "safeSnap"
+    ],
+    "voting": {
+      "type": null,
+      "quorum": null,
+      "delay": null,
+      "period": null
+    },
+    "treasuries": [],
+    "token": null,
+    "token_total_supply": null,
+    "supply_measured_at": "latest"
+  },
+  "bitdao.eth": {
+    "name": "Mantle (prev. BitDAO)",
+    "network": "5000",
+    "symbol": "MNT",
+    "followers": 89067,
+    "proposals_all_time": 35,
+    "votes_all_time": 73125,
+    "plugins": [],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": 100000000,
+      "delay": null,
+      "period": 604800
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0x3c3a81e81dc49A522A592e7622A7E711c06bf354",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "erc20-votes"
+    },
+    "token_total_supply": 6219316794.889999,
+    "supply_measured_at": "latest"
+  },
+  "cvx.eth": {
+    "name": "Convex Finance",
+    "network": "1",
+    "symbol": "CVX",
+    "followers": 5947,
+    "proposals_all_time": 2195,
+    "votes_all_time": 125551,
+    "plugins": [],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": null,
+      "delay": null,
+      "period": null
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0x72a19342e8F1838460eBFCCEf09F6585e32db86E",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "erc20-balance-of"
+    },
+    "token_total_supply": 44572471.59762056,
+    "supply_measured_at": "latest"
+  },
+  "1inch.eth": {
+    "name": "1inch Network",
+    "network": "1",
+    "symbol": "UP",
+    "followers": 13737,
+    "proposals_all_time": 105,
+    "votes_all_time": 13810,
+    "plugins": [
+      "poap",
+      "safeSnap"
+    ],
+    "has_exec_plugin": true,
+    "exec_plugins": [
+      "safeSnap"
+    ],
+    "voting": {
+      "type": "single-choice",
+      "quorum": 10000000,
+      "delay": 3600,
+      "period": 432000
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0x9A0C8Ff858d273f57072D714bca7411D717501D7",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "contract-call"
+    },
+    "token_total_supply": 4382507470.958087,
+    "supply_measured_at": "latest"
+  },
+  "sushigov.eth": {
+    "name": "Sushi",
+    "network": "1",
+    "symbol": "SUSHIPOWAH",
+    "followers": 61223,
+    "proposals_all_time": 231,
+    "votes_all_time": 47654,
+    "plugins": [
+      "hal",
+      "poap",
+      "quorum"
+    ],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": null,
+      "delay": null,
+      "period": null
+    },
+    "treasuries": [
+      {
+        "name": "Sushi Treasury",
+        "address": "0xe94b5eec1fa96ceecbd33ef5baa8d00e4493f4f3",
+        "network": "1"
+      }
+    ],
+    "token": {
+      "address": "0x62d11bc0652e9D9B66ac0a4c419950eEb9cFadA6",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "erc20-balance-of"
+    },
+    "token_total_supply": 19351155.755281914,
+    "supply_measured_at": "latest"
+  },
+  "lyra.eth": {
+    "name": "Lyra",
+    "network": "1",
+    "symbol": "stkLYRA",
+    "followers": 969,
+    "proposals_all_time": 82,
+    "votes_all_time": 2543,
+    "plugins": [],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": "single-choice",
+      "quorum": 1000000,
+      "delay": null,
+      "period": 259200
+    },
+    "treasuries": [
+      {
+        "name": "Lyra DAO",
+        "address": "0xEE86E99b42981623236824D33b4235833Afd8044",
+        "network": "1"
+      }
+    ],
+    "token": {
+      "address": "0x0F5d45a7023612e9e244fe84FAc5fCf3740d1492",
+      "decimals": 18,
+      "network": "10",
+      "strategy": "erc20-balance-of"
+    },
+    "token_total_supply": 11751032.745293729,
+    "supply_measured_at": "latest"
+  },
+  "gitcoindao.eth": {
+    "name": "Gitcoin",
+    "network": "1",
+    "symbol": "GTC",
+    "followers": 150499,
+    "proposals_all_time": 182,
+    "votes_all_time": 211906,
+    "plugins": [
+      "oSnap"
+    ],
+    "has_exec_plugin": true,
+    "exec_plugins": [
+      "oSnap"
+    ],
+    "voting": {
+      "type": null,
+      "quorum": 2500000,
+      "delay": null,
+      "period": 604800
+    },
+    "treasuries": [
+      {
+        "name": "Gitcoin Treasury",
+        "address": "0x57a8865cfB1eCEf7253c27da6B4BC3dAEE5Be518",
+        "network": "1"
+      },
+      {
+        "name": "Gitcoin Grants Matching Pool ",
+        "address": "0xde21F729137C5Af1b01d73aF1dC21eFfa2B8a0d6",
+        "network": "1"
+      }
+    ],
+    "token": {
+      "address": "0xde30da39c46104798bb5aa3fe8b9e0e1f348163f",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "with-delegation"
+    },
+    "token_total_supply": 100000000.0,
+    "supply_measured_at": "latest"
+  },
+  "qidao.eth": {
+    "name": "Qi Dao | Mai.Finance",
+    "network": "1",
+    "symbol": "aveQI",
+    "followers": 8362,
+    "proposals_all_time": 250,
+    "votes_all_time": 74642,
+    "plugins": [
+      "poap"
+    ],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": 600000,
+      "delay": 86400,
+      "period": 259200
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0x1BFFaBc6dFcAfB4177046db6686e3F135E8Bc732",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "ve-balance-of-at"
+    },
+    "token_total_supply": 1831731.3250740129,
+    "supply_measured_at": "latest"
+  },
+  "snapshot.dcl.eth": {
+    "name": "Decentraland",
+    "network": "1",
+    "symbol": "VP",
+    "followers": 34901,
+    "proposals_all_time": 2829,
+    "votes_all_time": 177441,
+    "plugins": [],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": null,
+      "delay": null,
+      "period": null
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0xfd09cf7cfffa9932e33668311c4777cb9db3c9be",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "erc20-balance-of"
+    },
+    "token_total_supply": 44153136.03722222,
+    "supply_measured_at": "latest"
+  },
+  "uniswapgovernance.eth": {
+    "name": "Uniswap",
+    "network": "1",
+    "symbol": "UNI",
+    "followers": 125269,
+    "proposals_all_time": 196,
+    "votes_all_time": 312890,
+    "plugins": [],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": 10000000,
+      "delay": null,
+      "period": 432000
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "uni"
+    },
+    "token_total_supply": 1000000000.0,
+    "supply_measured_at": "latest"
+  },
+  "spookyswap.eth": {
+    "name": "SpookySwap",
+    "network": "250",
+    "symbol": "SpookyVotes",
+    "followers": 4240,
+    "proposals_all_time": 97,
+    "votes_all_time": 18662,
+    "plugins": [
+      "hal"
+    ],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": 80000,
+      "delay": null,
+      "period": null
+    },
+    "treasuries": [],
+    "token": null,
+    "token_total_supply": null,
+    "supply_measured_at": "latest"
+  },
+  "banklessvault.eth": {
+    "name": "Bankless DAO",
+    "network": "1",
+    "symbol": "BANK",
+    "followers": 28694,
+    "proposals_all_time": 84,
+    "votes_all_time": 25245,
+    "plugins": [
+      "poap"
+    ],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": null,
+      "delay": null,
+      "period": null
+    },
+    "treasuries": [
+      {
+        "name": "BanklessDAO Multisig",
+        "address": "0xf26d1Bb347a59F6C283C53156519cC1B1ABacA51",
+        "network": "1"
+      }
+    ],
+    "token": {
+      "address": "0x2d94AA3e47d9D5024503Ca8491fcE9A2fB4DA198",
+      "decimals": 18,
+      "network": 1,
+      "strategy": "multichain"
+    },
+    "token_total_supply": 1000000000.0,
+    "supply_measured_at": "latest"
+  },
+  "ens.eth": {
+    "name": "ENS",
+    "network": "1",
+    "symbol": "ENS",
+    "followers": 143045,
+    "proposals_all_time": 98,
+    "votes_all_time": 126467,
+    "plugins": [],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": null,
+      "delay": null,
+      "period": 432000
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "delegation"
+    },
+    "token_total_supply": 100000000.0,
+    "supply_measured_at": "latest"
+  },
+  "olympusdao.eth": {
+    "name": "OlympusDAO",
+    "network": "1",
+    "symbol": "OHM",
+    "followers": 27199,
+    "proposals_all_time": 317,
+    "votes_all_time": 52027,
+    "plugins": [],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": null,
+      "delay": null,
+      "period": null
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0x04f2694c8fcee23e8fd0dfea1d4f5bb8c352111f",
+      "decimals": 9,
+      "network": "1",
+      "strategy": "erc20-balance-of"
+    },
+    "token_total_supply": 51371241.09210743,
+    "supply_measured_at": "latest"
+  },
+  "comp-vote.eth": {
+    "name": "Compound",
+    "network": "1",
+    "symbol": "COMP",
+    "followers": 7318,
+    "proposals_all_time": 36,
+    "votes_all_time": 3133,
+    "plugins": [],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": null,
+      "delay": null,
+      "period": null
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "comp-like-votes"
+    },
+    "token_total_supply": 10000000.0,
+    "supply_measured_at": "latest"
+  },
+  "pooltogether.eth": {
+    "name": "PoolTogether",
+    "network": "1",
+    "symbol": "POOL + PPOOL",
+    "followers": 5228,
+    "proposals_all_time": 38,
+    "votes_all_time": 3690,
+    "plugins": [
+      "poap"
+    ],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": null,
+      "delay": null,
+      "period": null
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0x27d22a7648e955e510a40bdb058333e9190d12d4",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "erc20-balance-of"
+    },
+    "token_total_supply": 111160.09418413835,
+    "supply_measured_at": "latest"
+  },
+  "alchemixstakers.eth": {
+    "name": "Alchemix",
+    "network": "59144",
+    "symbol": "ALCX",
+    "followers": 2545,
+    "proposals_all_time": 142,
+    "votes_all_time": 13928,
+    "plugins": [],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": 35000,
+      "delay": null,
+      "period": null
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0xADf8714e2703017CE6A1F6bF7a9e9be70ABC05E0",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "contract-call"
+    },
+    "token_total_supply": null,
+    "supply_measured_at": "latest"
+  },
+  "gnosis.eth": {
+    "name": "GnosisDAO",
+    "network": "1",
+    "symbol": "GNO",
+    "followers": 12230,
+    "proposals_all_time": 253,
+    "votes_all_time": 48136,
+    "plugins": [
+      "quorum",
+      "safeSnap"
+    ],
+    "has_exec_plugin": true,
+    "exec_plugins": [
+      "safeSnap"
+    ],
+    "voting": {
+      "type": null,
+      "quorum": null,
+      "delay": null,
+      "period": 604800
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0xE6C45c06e4C73e2aD58Aedf9bf83bCe1534b524a",
+      "decimals": 18,
+      "network": "100",
+      "strategy": "contract-call"
+    },
+    "token_total_supply": null,
+    "supply_measured_at": "latest"
+  },
+  "lido-snapshot.eth": {
+    "name": "Lido",
+    "network": "1",
+    "symbol": "LDO",
+    "followers": 32657,
+    "proposals_all_time": 419,
+    "votes_all_time": 83023,
+    "plugins": [],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": null,
+      "delay": null,
+      "period": null
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "erc20-balance-of-delegation"
+    },
+    "token_total_supply": 1000000000.0,
+    "supply_measured_at": "latest"
+  },
+  "stakedao.eth": {
+    "name": "Stake DAO",
+    "network": "1",
+    "symbol": "vlSDT",
+    "followers": 1561,
+    "proposals_all_time": 143,
+    "votes_all_time": 4113,
+    "plugins": [],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": null,
+      "delay": null,
+      "period": null
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0x94818A7baa7e9F5dC62ce4da1B52ef9a760b80B8",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "erc20-balance-of"
+    },
+    "token_total_supply": 40123340.73673592,
+    "supply_measured_at": "latest"
+  },
+  "frax.eth": {
+    "name": "Frax",
+    "network": "252",
+    "symbol": "veFXS",
+    "followers": 4637,
+    "proposals_all_time": 519,
+    "votes_all_time": 14439,
+    "plugins": [],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": 8252476,
+      "delay": null,
+      "period": 432000
+    },
+    "treasuries": [],
+    "token": null,
+    "token_total_supply": null,
+    "supply_measured_at": "latest"
+  },
+  "aavegotchi.eth": {
+    "name": "Aavegotchi",
+    "network": "8453",
+    "symbol": "GHST",
+    "followers": 86289,
+    "proposals_all_time": 623,
+    "votes_all_time": 440786,
+    "plugins": [
+      "poap",
+      "quorum"
+    ],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": "weighted",
+      "quorum": 7200000,
+      "delay": null,
+      "period": null
+    },
+    "treasuries": [
+      {
+        "name": "AavegotchiDAO Treasury (Polygon)",
+        "address": "0xb208f8BB431f580CC4b216826AFfB128cd1431aB",
+        "network": "137"
+      },
+      {
+        "name": "AavegotchiDAO Player Rewards",
+        "address": "0x27DF5C6dcd360f372e23d5e63645eC0072D0C098",
+        "network": "137"
+      },
+      {
+        "name": "AavegotchiDAO Treasury (Ethereum)",
+        "address": "0xFFE6280ae4E864D9aF836B562359FD828EcE8020",
+        "network": "1"
+      }
+    ],
+    "token": {
+      "address": "0xcd2f22236dd9dfe2356d7c543161d4d260fd9bcb",
+      "decimals": 18,
+      "network": "8453",
+      "strategy": "erc20-balance-of"
+    },
+    "token_total_supply": 21666117.899990965,
+    "supply_measured_at": "latest"
+  },
+  "yam.eth": {
+    "name": "Yam",
+    "network": "1",
+    "symbol": "YAM",
+    "followers": 1851,
+    "proposals_all_time": 215,
+    "votes_all_time": 20377,
+    "plugins": [],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": 200000,
+      "delay": null,
+      "period": null
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0xc32f9b0292965c5dd4a0ea1abfcc1f5a36d66986",
+      "decimals": 24,
+      "network": "1",
+      "strategy": "contract-call"
+    },
+    "token_total_supply": null,
+    "supply_measured_at": "latest"
+  },
+  "badgerdao.eth": {
+    "name": "BadgerDAO",
+    "network": "1",
+    "symbol": "BADGER",
+    "followers": 10557,
+    "proposals_all_time": 120,
+    "votes_all_time": 72240,
+    "plugins": [],
+    "has_exec_plugin": false,
+    "exec_plugins": [],
+    "voting": {
+      "type": null,
+      "quorum": 100000,
+      "delay": null,
+      "period": null
+    },
+    "treasuries": [],
+    "token": {
+      "address": "0xda230f173531F06D4e693DC1fb256B52c9B1a8C0",
+      "decimals": 18,
+      "network": "1",
+      "strategy": "erc20-balance-of-with-delegation"
+    },
+    "token_total_supply": 21000000.0,
+    "supply_measured_at": "latest"
+  }
+}
