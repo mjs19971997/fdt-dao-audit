@@ -63,6 +63,66 @@ PYTHONPATH=fdt python fdt/onchain.py   # treasury Safes + EIP-1967 probes
 `collect.py` checkpoints per space into `fdt/data/raw/`; an interrupted run
 resumes without refetching. Delete a space's JSON to force a refresh.
 
+## Tutorial: audit a DAO outside the sample
+
+Suppose you want to audit `somedao.eth`, a Snapshot space not in our frame.
+
+1. **Add it to the frame.** Open `fdt/data/sample_frame_probe.json` and append
+   `"somedao.eth"` to the `eligible` list (or edit `CANDIDATES` in
+   `fdt/probe3.py` and re-run it to apply the activity criteria).
+2. **Fetch its metadata and votes:**
+   ```bash
+   python fdt/spacemeta.py        # refreshes plugins/token/supply for all frame spaces
+   python -u fdt/collect.py       # fetches only the new space (others are cached)
+   ```
+3. **Re-score and re-check:**
+   ```bash
+   PYTHONPATH=fdt python fdt/analyze.py
+   PYTHONPATH=fdt python fdt/robustness.py
+   ```
+   Your DAO now appears in `fdt/out/fdt_results.json` with its per-proposal
+   metrics, medians, and pass/fail bits.
+4. **What it costs.** Collection is bounded by the hub's rate limit, not CPU.
+   Requests ≈ (number of proposals) + (votes ÷ 1000), at ~0.62 s per request:
+   a median-sized DAO in our sample (~20 proposals, ~1,000 votes) collects in
+   ~20 s; our heaviest space by votes (104,664) took 236 s; a space with 412
+   small proposals took 671 s.
+5. **If it declares treasuries** in its Snapshot config, `onchain.py` will pick
+   them up and read the Safe owners/threshold directly from chain state.
+
+## Measured performance
+
+All figures measured on an 8-core Xeon E5-4650 v2, Windows Server 2022.
+
+| Stage | Wall-clock | Peak RSS | Bound by |
+|---|---|---|---|
+| Collection, all 42 DAOs (network) | 33.8 min | — | hub rate limit (100 req/60 s) |
+| FDT scoring over 226,156 votes | 6.4 s | 89 MB | CPU |
+| Robustness checks | 4.5 s | 90 MB | CPU |
+| Defect diagnostics + metric evaluation | 3.8 s | 34 MB | CPU |
+| Figure generation | 22.7 s | 145 MB | CPU |
+| **Full offline analysis chain** | **37.4 s** | **≤ 145 MB** | CPU |
+
+Once the 29.3 MB of raw records exists, everything downstream reruns offline in
+under 40 seconds — the marginal cost of re-analysis is effectively zero.
+
+## Extending to other voting venues
+
+Collection and analysis meet at a narrow interface. Everything downstream of
+collection consumes, per proposal, a list of vote records:
+
+```json
+{"voter": "0x…", "vp": 12345.6, "created": 1752451200, "choice": 1}
+```
+
+plus per-space metadata (`fdt/data/spacemeta.json`). To support another venue —
+Tally's API over Governor-family contracts, or direct event-log extraction —
+write one collector that emits this shape into `fdt/data/raw/<space>.json`
+(see any shipped file for the envelope); metrics, scoring, robustness, and
+figures apply unchanged. The open design question (not plumbing) is the
+effective-vote semantics for Governor venues: cast votes vs delegated
+checkpoints. See paper §8.
+
 ## Validate before you trust
 
 `fdt/metrics.py` is checked against distributions with known closed-form values
@@ -137,6 +197,19 @@ If you use this code or dataset, please cite the paper above and this repository
   url    = {https://github.com/mjs19971997/fdt-dao-audit}
 }
 ```
+
+## Tests
+
+The metric layer ships with analytic self-tests (`fdt/metrics.py`,
+`fdt/scipy_free_stats.py`) — run them first; they must all PASS before any
+result is trusted. They are executed automatically at the top of the
+reproduce sequence above.
+
+## Archival
+
+A DOI-stamped snapshot of this repository (code + dataset) will be deposited
+on Zenodo upon paper acceptance, so results remain citable independent of
+GitHub availability.
 
 ## License
 
