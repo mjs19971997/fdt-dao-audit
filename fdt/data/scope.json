@@ -1,0 +1,259 @@
+{
+  "window_start": 1752451200,
+  "summary": [
+    {
+      "space": "stgdao.eth",
+      "n_proposals": 17,
+      "n_votes": 104665,
+      "max_votes_in_one": 15110
+    },
+    {
+      "space": "arbitrumfoundation.eth",
+      "n_proposals": 32,
+      "n_votes": 61851,
+      "max_votes_in_one": 3312
+    },
+    {
+      "space": "starknet.eth",
+      "n_proposals": 20,
+      "n_votes": 15866,
+      "max_votes_in_one": 1424
+    },
+    {
+      "space": "aavegotchi.eth",
+      "n_proposals": 53,
+      "n_votes": 9530,
+      "max_votes_in_one": 293
+    },
+    {
+      "space": "cvx.eth",
+      "n_proposals": 412,
+      "n_votes": 8323,
+      "max_votes_in_one": 153
+    },
+    {
+      "space": "gitcoindao.eth",
+      "n_proposals": 13,
+      "n_votes": 7956,
+      "max_votes_in_one": 782
+    },
+    {
+      "space": "uniswapgovernance.eth",
+      "n_proposals": 16,
+      "n_votes": 3350,
+      "max_votes_in_one": 449
+    },
+    {
+      "space": "lido-snapshot.eth",
+      "n_proposals": 44,
+      "n_votes": 2639,
+      "max_votes_in_one": 109
+    },
+    {
+      "space": "gmx.eth",
+      "n_proposals": 15,
+      "n_votes": 2343,
+      "max_votes_in_one": 337
+    },
+    {
+      "space": "gnosis.eth",
+      "n_proposals": 33,
+      "n_votes": 1738,
+      "max_votes_in_one": 113
+    },
+    {
+      "space": "snapshot.dcl.eth",
+      "n_proposals": 55,
+      "n_votes": 1395,
+      "max_votes_in_one": 58
+    },
+    {
+      "space": "ens.eth",
+      "n_proposals": 14,
+      "n_votes": 1223,
+      "max_votes_in_one": 113
+    },
+    {
+      "space": "gearbox.eth",
+      "n_proposals": 47,
+      "n_votes": 829,
+      "max_votes_in_one": 45
+    },
+    {
+      "space": "beets.eth",
+      "n_proposals": 25,
+      "n_votes": 649,
+      "max_votes_in_one": 48
+    },
+    {
+      "space": "1inch.eth",
+      "n_proposals": 20,
+      "n_votes": 619,
+      "max_votes_in_one": 48
+    },
+    {
+      "space": "bitdao.eth",
+      "n_proposals": 2,
+      "n_votes": 572,
+      "max_votes_in_one": 397
+    },
+    {
+      "space": "balancer.eth",
+      "n_proposals": 63,
+      "n_votes": 425,
+      "max_votes_in_one": 22
+    },
+    {
+      "space": "rocketpool-dao.eth",
+      "n_proposals": 6,
+      "n_votes": 360,
+      "max_votes_in_one": 73
+    },
+    {
+      "space": "safe.eth",
+      "n_proposals": 2,
+      "n_votes": 343,
+      "max_votes_in_one": 250
+    },
+    {
+      "space": "morpho.eth",
+      "n_proposals": 23,
+      "n_votes": 315,
+      "max_votes_in_one": 22
+    },
+    {
+      "space": "stakedao.eth",
+      "n_proposals": 19,
+      "n_votes": 264,
+      "max_votes_in_one": 37
+    },
+    {
+      "space": "comp-vote.eth",
+      "n_proposals": 11,
+      "n_votes": 235,
+      "max_votes_in_one": 46
+    },
+    {
+      "space": "radiantcapital.eth",
+      "n_proposals": 2,
+      "n_votes": 199,
+      "max_votes_in_one": 103
+    },
+    {
+      "space": "frax.eth",
+      "n_proposals": 18,
+      "n_votes": 160,
+      "max_votes_in_one": 21
+    },
+    {
+      "space": "olympusdao.eth",
+      "n_proposals": 13,
+      "n_votes": 111,
+      "max_votes_in_one": 14
+    },
+    {
+      "space": "alchemixstakers.eth",
+      "n_proposals": 3,
+      "n_votes": 81,
+      "max_votes_in_one": 31
+    },
+    {
+      "space": "sushigov.eth",
+      "n_proposals": 4,
+      "n_votes": 60,
+      "max_votes_in_one": 31
+    },
+    {
+      "space": "qidao.eth",
+      "n_proposals": 4,
+      "n_votes": 30,
+      "max_votes_in_one": 10
+    },
+    {
+      "space": "badgerdao.eth",
+      "n_proposals": 2,
+      "n_votes": 27,
+      "max_votes_in_one": 22
+    },
+    {
+      "space": "krausehouse.eth",
+      "n_proposals": 1,
+      "n_votes": 4,
+      "max_votes_in_one": 4
+    },
+    {
+      "space": "opcollective.eth",
+      "n_proposals": 0,
+      "n_votes": 0,
+      "max_votes_in_one": 0
+    },
+    {
+      "space": "shellprotocol.eth",
+      "n_proposals": 0,
+      "n_votes": 0,
+      "max_votes_in_one": 0
+    },
+    {
+      "space": "apecoin.eth",
+      "n_proposals": 0,
+      "n_votes": 0,
+      "max_votes_in_one": 0
+    },
+    {
+      "space": "banklessvault.eth",
+      "n_proposals": 0,
+      "n_votes": 0,
+      "max_votes_in_one": 0
+    },
+    {
+      "space": "hop.eth",
+      "n_proposals": 0,
+      "n_votes": 0,
+      "max_votes_in_one": 0
+    },
+    {
+      "space": "yam.eth",
+      "n_proposals": 0,
+      "n_votes": 0,
+      "max_votes_in_one": 0
+    },
+    {
+      "space": "dydxgov.eth",
+      "n_proposals": 0,
+      "n_votes": 0,
+      "max_votes_in_one": 0
+    },
+    {
+      "space": "spookyswap.eth",
+      "n_proposals": 0,
+      "n_votes": 0,
+      "max_votes_in_one": 0
+    },
+    {
+      "space": "mstablegovernance.eth",
+      "n_proposals": 0,
+      "n_votes": 0,
+      "max_votes_in_one": 0
+    },
+    {
+      "space": "beanstalkfarms.eth",
+      "n_proposals": 0,
+      "n_votes": 0,
+      "max_votes_in_one": 0
+    },
+    {
+      "space": "pooltogether.eth",
+      "n_proposals": 0,
+      "n_votes": 0,
+      "max_votes_in_one": 0
+    },
+    {
+      "space": "lyra.eth",
+      "n_proposals": 0,
+      "n_votes": 0,
+      "max_votes_in_one": 0
+    }
+  ],
+  "total_votes": 226162,
+  "est_requests": 244
+}
