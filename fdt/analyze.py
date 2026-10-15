@@ -111,14 +111,18 @@ def score_space(space, rec, meta):
         d3_fail = bool(d_vote < TAU_DISPERSION or g >= TAU_GINI
                        or nak <= TAU_NAKAMOTO or t1 >= TAU_TOP1)
 
-    # ---- D4 participation depth -------------------------------------------
+    # ---- D4 participation depth (NOT scored) ------------------------------
+    # The only available denominator is latest total token supply, which
+    # overstates the eligible base in a delegation system and so biases the
+    # dimension toward failure -- i.e. toward the study's own thesis. We keep
+    # the turnout value as a descriptive LOWER BOUND but never convert it into
+    # a pass/fail bit. Unique voter counts (no denominator) carry this
+    # dimension instead. See the paper's limitations section.
     supply = (meta or {}).get("token_total_supply")
     tos = turnout_series(pms, supply)
     med_turnout = st.median(tos) if tos else None
     pers = persistent(tos)
     d4_fail = None
-    if med_turnout is not None:
-        d4_fail = bool(med_turnout < TAU_TURNOUT or pers is False)
 
     # ---- D5 execution autonomy (venue-level; NOT scored as a pass/fail) ----
     # Absence of an execution module means THIS venue cannot push a passed

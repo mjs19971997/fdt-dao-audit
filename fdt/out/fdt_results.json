@@ -342,10 +342,10 @@
     "exec_value": null,
     "exec_basis": "execution module present (safeSnap); per-proposal execution rate not measured",
     "D3_dispersion_fail": true,
-    "D4_participation_fail": true,
+    "D4_participation_fail": null,
     "D5_execution_fail": null,
-    "n_fails_measured": 2,
-    "n_unknown": 1
+    "n_fails_measured": 1,
+    "n_unknown": 2
   },
   {
     "space": "aavegotchi.eth",
@@ -1218,10 +1218,10 @@
     "exec_value": null,
     "exec_basis": "no execution module: this venue is signalling-only. Binding execution may occur via a separate on-chain governor (not observable here)",
     "D3_dispersion_fail": false,
-    "D4_participation_fail": false,
+    "D4_participation_fail": null,
     "D5_execution_fail": null,
     "n_fails_measured": 0,
-    "n_unknown": 1
+    "n_unknown": 2
   },
   {
     "space": "alchemixstakers.eth",
@@ -1844,10 +1844,10 @@
     "exec_value": null,
     "exec_basis": "execution module present (oSnap); per-proposal execution rate not measured",
     "D3_dispersion_fail": true,
-    "D4_participation_fail": true,
+    "D4_participation_fail": null,
     "D5_execution_fail": null,
-    "n_fails_measured": 2,
-    "n_unknown": 1
+    "n_fails_measured": 1,
+    "n_unknown": 2
   },
   {
     "space": "badgerdao.eth",
@@ -1904,10 +1904,10 @@
     "exec_value": null,
     "exec_basis": "no execution module: this venue is signalling-only. Binding execution may occur via a separate on-chain governor (not observable here)",
     "D3_dispersion_fail": true,
-    "D4_participation_fail": true,
+    "D4_participation_fail": null,
     "D5_execution_fail": null,
-    "n_fails_measured": 2,
-    "n_unknown": 1
+    "n_fails_measured": 1,
+    "n_unknown": 2
   },
   {
     "space": "balancer.eth",
@@ -3448,10 +3448,10 @@
     "exec_value": null,
     "exec_basis": "no execution module: this venue is signalling-only. Binding execution may occur via a separate on-chain governor (not observable here)",
     "D3_dispersion_fail": true,
-    "D4_participation_fail": true,
+    "D4_participation_fail": null,
     "D5_execution_fail": null,
-    "n_fails_measured": 2,
-    "n_unknown": 1
+    "n_fails_measured": 1,
+    "n_unknown": 2
   },
   {
     "space": "comp-vote.eth",
@@ -3636,10 +3636,10 @@
     "exec_value": null,
     "exec_basis": "no execution module: this venue is signalling-only. Binding execution may occur via a separate on-chain governor (not observable here)",
     "D3_dispersion_fail": true,
-    "D4_participation_fail": true,
+    "D4_participation_fail": null,
     "D5_execution_fail": null,
-    "n_fails_measured": 2,
-    "n_unknown": 1
+    "n_fails_measured": 1,
+    "n_unknown": 2
   },
   {
     "space": "cvx.eth",
@@ -10256,10 +10256,10 @@
     "exec_value": null,
     "exec_basis": "no execution module: this venue is signalling-only. Binding execution may occur via a separate on-chain governor (not observable here)",
     "D3_dispersion_fail": true,
-    "D4_participation_fail": false,
+    "D4_participation_fail": null,
     "D5_execution_fail": null,
     "n_fails_measured": 1,
-    "n_unknown": 1
+    "n_unknown": 2
   },
   {
     "space": "dydxgov.eth",
@@ -10518,10 +10518,10 @@
     "exec_value": null,
     "exec_basis": "no execution module: this venue is signalling-only. Binding execution may occur via a separate on-chain governor (not observable here)",
     "D3_dispersion_fail": false,
-    "D4_participation_fail": true,
+    "D4_participation_fail": null,
     "D5_execution_fail": null,
-    "n_fails_measured": 1,
-    "n_unknown": 1
+    "n_fails_measured": 0,
+    "n_unknown": 2
   },
   {
     "space": "frax.eth",
@@ -11850,10 +11850,10 @@
     "exec_value": null,
     "exec_basis": "execution module present (oSnap); per-proposal execution rate not measured",
     "D3_dispersion_fail": true,
-    "D4_participation_fail": true,
+    "D4_participation_fail": null,
     "D5_execution_fail": null,
-    "n_fails_measured": 2,
-    "n_unknown": 1
+    "n_fails_measured": 1,
+    "n_unknown": 2
   },
   {
     "space": "gmx.eth",
@@ -12118,10 +12118,10 @@
     "exec_value": null,
     "exec_basis": "no execution module: this venue is signalling-only. Binding execution may occur via a separate on-chain governor (not observable here)",
     "D3_dispersion_fail": true,
-    "D4_participation_fail": true,
+    "D4_participation_fail": null,
     "D5_execution_fail": null,
-    "n_fails_measured": 2,
-    "n_unknown": 1
+    "n_fails_measured": 1,
+    "n_unknown": 2
   },
   {
     "space": "gnosis.eth",
@@ -12680,10 +12680,10 @@
     "exec_value": null,
     "exec_basis": "no execution module: this venue is signalling-only. Binding execution may occur via a separate on-chain governor (not observable here)",
     "D3_dispersion_fail": true,
-    "D4_participation_fail": true,
+    "D4_participation_fail": null,
     "D5_execution_fail": null,
-    "n_fails_measured": 2,
-    "n_unknown": 1
+    "n_fails_measured": 1,
+    "n_unknown": 2
   },
   {
     "space": "lido-snapshot.eth",
@@ -13380,10 +13380,10 @@
     "exec_value": null,
     "exec_basis": "no execution module: this venue is signalling-only. Binding execution may occur via a separate on-chain governor (not observable here)",
     "D3_dispersion_fail": true,
-    "D4_participation_fail": true,
+    "D4_participation_fail": null,
     "D5_execution_fail": null,
-    "n_fails_measured": 2,
-    "n_unknown": 1
+    "n_fails_measured": 1,
+    "n_unknown": 2
   },
   {
     "space": "lyra.eth",
@@ -13786,10 +13786,10 @@
     "exec_value": null,
     "exec_basis": "no execution module: this venue is signalling-only. Binding execution may occur via a separate on-chain governor (not observable here)",
     "D3_dispersion_fail": true,
-    "D4_participation_fail": true,
+    "D4_participation_fail": null,
     "D5_execution_fail": null,
-    "n_fails_measured": 2,
-    "n_unknown": 1
+    "n_fails_measured": 1,
+    "n_unknown": 2
   },
   {
     "space": "mstablegovernance.eth",
@@ -14032,10 +14032,10 @@
     "exec_value": null,
     "exec_basis": "no execution module: this venue is signalling-only. Binding execution may occur via a separate on-chain governor (not observable here)",
     "D3_dispersion_fail": true,
-    "D4_participation_fail": true,
+    "D4_participation_fail": null,
     "D5_execution_fail": null,
-    "n_fails_measured": 2,
-    "n_unknown": 1
+    "n_fails_measured": 1,
+    "n_unknown": 2
   },
   {
     "space": "opcollective.eth",
@@ -14144,10 +14144,10 @@
     "exec_value": null,
     "exec_basis": "no execution module: this venue is signalling-only. Binding execution may occur via a separate on-chain governor (not observable here)",
     "D3_dispersion_fail": true,
-    "D4_participation_fail": false,
+    "D4_participation_fail": null,
     "D5_execution_fail": null,
     "n_fails_measured": 1,
-    "n_unknown": 1
+    "n_unknown": 2
   },
   {
     "space": "radiantcapital.eth",
@@ -14204,10 +14204,10 @@
     "exec_value": null,
     "exec_basis": "no execution module: this venue is signalling-only. Binding execution may occur via a separate on-chain governor (not observable here)",
     "D3_dispersion_fail": true,
-    "D4_participation_fail": true,
+    "D4_participation_fail": null,
     "D5_execution_fail": null,
-    "n_fails_measured": 2,
-    "n_unknown": 1
+    "n_fails_measured": 1,
+    "n_unknown": 2
   },
   {
     "space": "rocketpool-dao.eth",
@@ -14328,10 +14328,10 @@
     "exec_value": null,
     "exec_basis": "no execution module: this venue is signalling-only. Binding execution may occur via a separate on-chain governor (not observable here)",
     "D3_dispersion_fail": false,
-    "D4_participation_fail": true,
+    "D4_participation_fail": null,
     "D5_execution_fail": null,
-    "n_fails_measured": 1,
-    "n_unknown": 1
+    "n_fails_measured": 0,
+    "n_unknown": 2
   },
   {
     "space": "safe.eth",
@@ -14388,10 +14388,10 @@
     "exec_value": null,
     "exec_basis": "execution module present (safeSnap); per-proposal execution rate not measured",
     "D3_dispersion_fail": true,
-    "D4_participation_fail": true,
+    "D4_participation_fail": null,
     "D5_execution_fail": null,
-    "n_fails_measured": 2,
-    "n_unknown": 1
+    "n_fails_measured": 1,
+    "n_unknown": 2
   },
   {
     "space": "shellprotocol.eth",
@@ -15306,10 +15306,10 @@
     "exec_value": null,
     "exec_basis": "no execution module: this venue is signalling-only. Binding execution may occur via a separate on-chain governor (not observable here)",
     "D3_dispersion_fail": true,
-    "D4_participation_fail": true,
+    "D4_participation_fail": null,
     "D5_execution_fail": null,
-    "n_fails_measured": 2,
-    "n_unknown": 1
+    "n_fails_measured": 1,
+    "n_unknown": 2
   },
   {
     "space": "spookyswap.eth",
@@ -15648,10 +15648,10 @@
     "exec_value": null,
     "exec_basis": "no execution module: this venue is signalling-only. Binding execution may occur via a separate on-chain governor (not observable here)",
     "D3_dispersion_fail": true,
-    "D4_participation_fail": false,
+    "D4_participation_fail": null,
     "D5_execution_fail": null,
     "n_fails_measured": 1,
-    "n_unknown": 1
+    "n_unknown": 2
   },
   {
     "space": "starknet.eth",
@@ -15996,10 +15996,10 @@
     "exec_value": null,
     "exec_basis": "no execution module: this venue is signalling-only. Binding execution may occur via a separate on-chain governor (not observable here)",
     "D3_dispersion_fail": true,
-    "D4_participation_fail": true,
+    "D4_participation_fail": null,
     "D5_execution_fail": null,
-    "n_fails_measured": 2,
-    "n_unknown": 1
+    "n_fails_measured": 1,
+    "n_unknown": 2
   },
   {
     "space": "stgdao.eth",
@@ -16388,10 +16388,10 @@
     "exec_value": null,
     "exec_basis": "no execution module: this venue is signalling-only. Binding execution may occur via a separate on-chain governor (not observable here)",
     "D3_dispersion_fail": true,
-    "D4_participation_fail": false,
+    "D4_participation_fail": null,
     "D5_execution_fail": null,
     "n_fails_measured": 1,
-    "n_unknown": 1
+    "n_unknown": 2
   },
   {
     "space": "uniswapgovernance.eth",
@@ -16672,10 +16672,10 @@
     "exec_value": null,
     "exec_basis": "no execution module: this venue is signalling-only. Binding execution may occur via a separate on-chain governor (not observable here)",
     "D3_dispersion_fail": true,
-    "D4_participation_fail": true,
+    "D4_participation_fail": null,
     "D5_execution_fail": null,
-    "n_fails_measured": 2,
-    "n_unknown": 1
+    "n_fails_measured": 1,
+    "n_unknown": 2
   },
   {
     "space": "yam.eth",
