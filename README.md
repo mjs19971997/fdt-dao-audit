@@ -63,6 +63,23 @@ PYTHONPATH=fdt python fdt/onchain.py   # treasury Safes + EIP-1967 probes
 `collect.py` checkpoints per space into `fdt/data/raw/`; an interrupted run
 resumes without refetching. Delete a space's JSON to force a refresh.
 
+## One-command audit (CLI)
+
+```bash
+PYTHONPATH=fdt python fdt/cli.py audit ens.eth          # collect + score + report
+PYTHONPATH=fdt python fdt/cli.py audit somedao.eth --months 6
+PYTHONPATH=fdt python fdt/cli.py score                  # re-score all cached spaces, offline
+PYTHONPATH=fdt python fdt/cli.py selftest               # analytic metric checks (CI gate)
+```
+
+`audit` fetches a space's metadata, proposals, and every vote over a trailing
+window, scores all measurable dimensions with the same code path the paper's
+ecosystem study ran, prints a report, and writes the raw record plus the scored
+result under `fdt/data/audits/`. Measured live: a full audit of `ens.eth`
+(14 proposals, 1,195 votes) completes in **26 seconds**. The report never
+conflates unmeasurable with passing: a dimension without a defensible
+denominator is printed as *unscored*.
+
 ## Tutorial: audit a DAO outside the sample
 
 Suppose you want to audit `somedao.eth`, a Snapshot space not in our frame.
